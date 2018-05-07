@@ -15,6 +15,7 @@ class Artist
 
   def add_song_by_name(song_name)
     song = Song.new(song_name) #initializing a new song with a song_name
+    @songs << song
     #check the song class
   end
 
