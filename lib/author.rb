@@ -21,7 +21,7 @@ class Author
     post = Post.new(post_title)
     #when initializing a new post it expects a title as a parameter
     post.author = self
-    #it needs an author.
+    #the post needs an author. so you set it as self. (Author class object instance)
     @posts < post
   end
 
