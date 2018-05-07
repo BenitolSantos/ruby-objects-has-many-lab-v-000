@@ -1,5 +1,5 @@
 class Song
-  attr_accessor :name, :artist
+  attr_accessor :name, :artist # #artist means its asking for an attribute
 
   def initialize(name)
     @name = name
