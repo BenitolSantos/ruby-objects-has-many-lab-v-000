@@ -15,7 +15,6 @@ class Artist
 
   def add_song_by_name(song_name)
     song = Song.new
-    song.name =
   end
 
   def songs
