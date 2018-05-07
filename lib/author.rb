@@ -10,7 +10,7 @@ class Author
     @posts
   end
 
-  def add_post(post)
+  def add_post(post) #an object is being passed in
     post.author = self #setting the author of that instance equal to self,
     #Author Class Instance
     @posts << post
