@@ -22,7 +22,7 @@ class Author
     #when initializing a new post it expects a title as a parameter
     post.author = self
     #the post needs an author. so you set it as self. (Author class object instance)
-    @posts < post
+    @posts << post #remember to shovel <<
   end
 
 
