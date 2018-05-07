@@ -12,7 +12,8 @@ class Author
 
   def add_post(post)
     post = Post.new #setting the parameter equal to a new Post class instance
-    post.author = self #setting the author of that instance equal to self, Author
+    post.author = self #setting the author of that instance equal to self,
+    #Author Class Instance
     @post << post
   end
 
