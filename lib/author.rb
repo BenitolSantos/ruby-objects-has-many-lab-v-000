@@ -19,6 +19,7 @@ class Author
   def add_post_by_title(post_title)
     post = Post.new(post_title)
     #when initializing a new post it expects a title as a parameter
+    post.author = self
     @posts < post
   end
 
