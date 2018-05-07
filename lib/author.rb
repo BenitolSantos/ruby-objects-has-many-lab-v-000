@@ -16,6 +16,9 @@ class Author
     @posts << post
   end
 
+  def add_post_by_title
+  end
+
 
 
 
