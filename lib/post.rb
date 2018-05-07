@@ -5,7 +5,7 @@ class Post
   end
 
   def author_name
-    self.author.name if self.author #a one conditional check if the author isn't nil.
+    self.author.name if self.author #a one conditional to check if the author isn't nil.
   end
 
 end
