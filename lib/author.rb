@@ -16,6 +16,7 @@ class Author
     #setting the author of that instance equal to self,
     #Author Class Instance. Note: needs author in attr_accessor in post first
     @posts << post
+    @@post_count += 1
   end
 
   def add_post_by_title(post_title)
@@ -24,6 +25,7 @@ class Author
     post.author = self
     #the post needs an author. so you set it as self. (Author class object instance)
     @posts << post #remember to shovel <<
+    @@post_count += 1
   end
 
   def self.post_count #class method
