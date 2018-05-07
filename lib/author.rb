@@ -12,9 +12,10 @@ class Author
 
   def add_post(post) #an object is being passed in
     post.author = self #setting the author of that instance equal to self,
-    #Author Class Instance
+    #Author Class Instance. Note: needs author in attr_accessor in post first
     @posts << post
   end
+
 
 
 
