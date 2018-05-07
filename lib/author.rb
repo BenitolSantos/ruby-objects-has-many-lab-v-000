@@ -6,6 +6,10 @@ class Author
     @posts = []
   end
 
+  def posts
+    @posts
+  end
+
   def add_post(post)
     post = Post.new #setting the parameter equal to a new Post class instance
     post.author = self #setting the author of that instance equal to self,
@@ -13,9 +17,7 @@ class Author
     @posts << post
   end
 
-  def posts
-    @posts
-  end
+  
 
 
 
