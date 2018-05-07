@@ -1,7 +1,8 @@
 require 'pry'
 class Artist
   attr_accessor :name
-  
+  @@song_count #expects a class variable.
+
   def initialize(name)
     @name = name
     @songs = []
@@ -20,7 +21,7 @@ class Artist
     @songs << song #push it  then check the song class
   end
 
-  def song_count
+  def self.song_count
 
   end
 
