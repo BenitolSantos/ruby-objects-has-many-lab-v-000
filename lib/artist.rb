@@ -8,7 +8,7 @@ class Artist
     @songs = []
   end
 
-  def add_song(song)
+  def add_song(song) #an object is being passed in, not a string
     song.artist = self #it was expecting the artist to be returned along
     #with the song being added.
     @songs << song
