@@ -25,5 +25,8 @@ class Author
     @posts << post #remember to shovel <<
   end
 
+  def self.post_count #class method
+    @@post_count
+  end
 
 end
