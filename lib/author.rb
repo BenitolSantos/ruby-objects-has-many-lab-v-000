@@ -11,7 +11,8 @@ class Author
   end
 
   def add_post(post) #an object is being passed in
-    post.author = self #setting the author of that instance equal to self,
+    post.author = self
+    #setting the author of that instance equal to self,
     #Author Class Instance. Note: needs author in attr_accessor in post first
     @posts << post
   end
@@ -20,6 +21,7 @@ class Author
     post = Post.new(post_title)
     #when initializing a new post it expects a title as a parameter
     post.author = self
+    #it needs
     @posts < post
   end
 
