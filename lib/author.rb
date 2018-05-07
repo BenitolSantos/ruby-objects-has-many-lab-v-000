@@ -7,7 +7,7 @@ class Author
   end
 
   def posts
-    @postes
+    @post
   end
 
 end
