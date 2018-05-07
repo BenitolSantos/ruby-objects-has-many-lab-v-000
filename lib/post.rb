@@ -4,7 +4,7 @@ class Post
     @title = title
   end
 
-  def author(author) #method named author, parameter named author
-    
+  def author(author_name) #method named author, parameter named author
+
   end
 end
