@@ -15,7 +15,8 @@ class Artist
 
   def add_song_by_name(song_name)
     song = Song.new(song_name) #initializing a new song with a song_name
-    song.artist = self 
+    song.artist = self #self becaust the new instance of the class Artist is 
+    #the attribute artist of the song class
     @songs << song #push it
     #check the song class
   end
