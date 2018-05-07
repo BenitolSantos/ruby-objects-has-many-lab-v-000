@@ -20,6 +20,7 @@ class Artist
     song.artist = self #self becaust the new instance of the class Artist is
     #the attribute artist of the song class
     @songs << song #push it  then check the song class
+    @@song_count += 1
   end
 
   def self.song_count
