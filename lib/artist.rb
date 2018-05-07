@@ -20,6 +20,9 @@ class Artist
     @songs << song #push it  then check the song class
   end
 
+  def song_count
+  end
+
   def songs
     @songs
   end
