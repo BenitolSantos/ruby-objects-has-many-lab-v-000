@@ -1,7 +1,7 @@
 require 'pry'
 class Artist
   attr_accessor :name
-  @@song_count = [] #expects a class variable. @@
+  @@song_count = 0 #expects a class variable. @@
 
   def initialize(name)
     @name = name
